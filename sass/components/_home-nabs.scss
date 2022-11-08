@@ -1,0 +1,19 @@
+
+.nav_btn ul li button {
+  background-color: transparent !important;
+  font-weight: 700;
+  font-size: 25px;
+  color: #282828 !important;
+  text-transform: capitalize;
+  margin-right: 150px;
+  padding-bottom: 0;
+  margin-bottom: 25px;
+}
+
+.nav_btn ul li button.active{
+  border-bottom: 2px solid #F47606 !important;
+}
+
+.hnb_margin{
+  margin-top: 130px;
+}

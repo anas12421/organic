@@ -1,0 +1,23 @@
+#cate_product {
+  padding-top: 130px;
+}
+
+.catep_head h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+  text-transform: capitalize;
+}
+
+.catep_btn button {
+  background-color: transparent !important;
+  font-weight: 600;
+  font-size: 16px;
+  color: #676767 !important;
+  text-transform: capitalize;
+ 
+}
+
+.catep_btn button.active{
+   color: #F47606 !important;
+}

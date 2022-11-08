@@ -1,0 +1,57 @@
+#detail_nav {
+  padding-top: 50px;
+}
+
+.detail_nav_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.detail_nav_btn ul {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.detail_nav_btn ul li button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #676767 !important;
+  text-transform: capitalize;
+  background-color: transparent !important;
+  padding: 0 40px 12px 40px;
+}
+
+.detail_nav_btn ul li button.active {
+  color: #F47606 !important;
+  border-bottom: 1px solid #F47606;
+}
+
+.detail_nav_text {
+  padding-top: 10px;
+}
+
+.detail_nav_text p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #676767;
+  text-align: justify;
+  padding-right: 265px;
+}
+
+.dtn_list i {
+  font-size: 8px;
+  padding-right: 10px;
+}
+
+.dtn_list ul{
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.dtn_list ul li{
+  padding-top: 10px;
+}
+.dtn_list span {
+  font-size: 16px;
+  color: #676767;
+}

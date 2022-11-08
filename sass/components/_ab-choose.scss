@@ -1,0 +1,97 @@
+#abcu {
+  padding-top: 130px;
+}
+
+
+
+
+.abcu_head h3 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #676767;
+
+}
+
+.abcu_head h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 42px;
+  color: #282828;
+  padding-top: 10px;
+}
+
+.abcu_head p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #676767;
+  padding-top: 20px;
+}
+
+.abcu_navs {
+  padding-top: 50px;
+}
+
+
+
+.abcu_btn{
+  position: sticky;
+  top: 95px;
+}
+.abcu_btn button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #676767 !important;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
+.abcu_btn button.active {
+  color: white !important;
+  background: #F47606 !important;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.abcu_nav_text h5 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #676767;
+}
+
+.abcu_nav_text h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #282828;
+  padding-top: 10px;
+}
+
+.abcu_nav_text p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #676767;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+.abcunt_list {
+  padding-top: 20px;
+}
+
+.abcunt_list ul li {
+  padding-bottom: 10px;
+}
+
+.abcunt_list ul li p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #676767;
+  padding-top: 0;
+}
+
+.abcunt_list ul li p i{
+  font-size: 5px;
+  padding-right: 10px;
+}

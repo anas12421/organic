@@ -1,0 +1,127 @@
+.acce_tp_head h2 {
+  padding-top: 130px;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+}
+
+
+.acce_tp_btn {
+  padding-bottom: 25px;
+}
+
+.acce_tp_btn button {
+  background-color: transparent !important;
+  color: black !important;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 27px;
+  text-transform: capitalize;
+}
+
+.acce_tp_btn button.active {
+  text-decoration-line: underline;
+  color: #F47606 !important;
+}
+
+.accetp_item {
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.accetp_img {
+  position: relative;
+  overflow: hidden;
+}
+
+.accetp_img img {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.accetp_item:hover .accetp_img img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.accetp_ol {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accetp_item:hover .accetp_ol {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.accetp_ol i {
+  margin: 0 7px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: #F47606;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.accetp_ol i:hover {
+  background-color: #F47606;
+  color: white;
+}
+
+.accetp_item h2 {
+  padding-top: 30px;
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #282828;
+}
+
+.accetp_item i {
+  color: #FFAE00;
+}
+
+.accetp_item p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #282828;
+  padding-top: 12px;
+}

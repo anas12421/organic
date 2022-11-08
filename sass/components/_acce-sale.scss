@@ -1,0 +1,88 @@
+#acce_shop {
+  padding-top: 130px;
+}
+
+.acce_shop_main {
+  background: url(../images/acce-shop1.png);
+  padding: 65px 104px 65px 53px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.acce_shop_main.bg2 {
+  background: url(../images/acce-shop2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.acce_shop_main.bg3 {
+  background: url(../images/acce-shop3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.acce_shop_main h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #282828;
+}
+
+.acce_shop_main h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #282828;
+  padding-top: 15px;
+
+}
+
+.acce_shop_main a {
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #F47606;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+
+#acce_shop2 {
+  padding-top: 130px;
+}
+
+.acce_shop2 {
+  padding: 73px 295px 73px 32px;
+  background: url(../images/acce-shop4.png) no-repeat center / cover;
+}
+
+.acce_shop2.for_bg{
+  background: url(../images/acce-shop5.png) no-repeat center / cover;
+}
+
+.acce_shop2 h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #F47606;
+}
+
+.acce_shop2 h2 {
+  padding: 10px 0 20px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #282828;
+
+}
+
+.acce_shop2 a {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #F47606;
+}

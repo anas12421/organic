@@ -1,0 +1,73 @@
+.deal_head h2 {
+  padding-top: 128px;
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+  padding-bottom: 50px;
+}
+
+.deal_slider {
+  background-color: #F7F7F7;
+  padding-bottom: 59px;
+  margin: 0 20px;
+}
+.deal_slider.for_bg{
+  background: #F3F3F3;
+}
+
+.deal_clock {
+  padding: 0 95px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.deal_timer {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: 700;
+  font-size: 20px;
+  color: #F47606;
+}
+
+
+.deal_slider h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  color: #282828;
+}
+
+.deal_slider i {
+  color: #FFAE00;
+}
+
+.deal_slider span {
+  padding-top: 12px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #282828;
+  display: block;
+}
+
+.deal_slider a {
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 12px 58px;
+  background-color: #F47606;
+  border: 1px solid #F47606;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.deal_slider a:hover {
+  color: #F47606;
+  background-color: transparent;
+}

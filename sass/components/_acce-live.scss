@@ -1,0 +1,47 @@
+.acce_live {
+  margin-top: 130px;
+  padding: 92px 0;
+  background: url(../images/acce-live1.png) no-repeat center / cover;
+  border-radius: 25px;
+}
+
+.acce_live h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #282828;
+}
+
+.acce_live p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+  padding-top: 15px;
+  padding-right: 230px;
+  padding-bottom: 22px;
+}
+
+.acce_live a {
+  padding: 14px 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  background: #477018;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  border: 1px solid #477018;
+}
+.acce_live a:hover {
+  background-color: transparent;
+  color: #477018;;
+}
+
+
+.acce_live.cat_live{
+  background: url(../images/cat_live2.png) no-repeat center / cover;
+  margin-top: 50px;
+}

@@ -1,0 +1,44 @@
+#cat_banner {
+  background: url(../images/cat_banner.png) fixed;
+  padding: 130px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cat_banner_text h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 91px;
+  color: #282828;
+}
+
+.cat_banner_text h1 span {
+  color: #F47606;
+}
+
+.cat_banner_text p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+}
+
+.cat_banner_text a {
+  margin-top: 25px;
+  padding: 14px 50px;
+  color: white;
+  text-transform: capitalize;
+  background: #477018;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.cat_banner_text a:hover{
+  background-color: #F47606;
+}

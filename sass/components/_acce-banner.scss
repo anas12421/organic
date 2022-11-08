@@ -1,0 +1,60 @@
+.banner_left {
+  background: url(../images/acce-banner1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 160px 94px 160px 62px;
+}
+
+.banner_left h1 {
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 91px;
+  color: #282828;
+}
+
+.banner_left span {
+  color: #F47606;
+}
+
+.banner_left p {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+}
+
+.banner_left a {
+  margin-top: 30px;
+  padding: 14px 50px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #477018;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.banner_right_top {
+  background: url(../images/acce-banner2.jpg);
+  padding: 43px 30px 205px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: right;
+}
+
+.banner_right_top h2 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #282828;
+}
+.banner_right_top a{
+  padding: 8px 21px;
+  text-transform: capitalize;
+  background-color: #477018;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  margin-right: 75px;
+}

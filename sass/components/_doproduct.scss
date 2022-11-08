@@ -1,0 +1,122 @@
+#discover {
+  padding-top: 130px;
+}
+
+.disco_head h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+  padding-bottom: 40px;
+}
+
+
+.disco_btn{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+
+.disco_btn button {
+  background-color: transparent !important;
+  color: black !important;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0 27px;
+  text-transform: capitalize;
+}
+
+.disco_btn button.active {
+  text-decoration-line: underline;
+  color: #F47606 !important;
+}
+
+
+.disco_item{
+  margin-top: 25px;
+  background-color: #FAFAFA;
+  position: relative;
+}
+
+.disco_text h2{
+  font-weight: 600;
+font-size: 20px;
+color: #282828;
+padding-bottom: 6px;
+
+}
+
+.disco_text i{
+  color: #FFAE00;
+}
+
+.disco_text p{
+  font-weight: 600;
+font-size: 16px;
+color: #282828;
+padding-top: 6px;
+}
+.disco_text del{
+  color: #A9A9A9;
+}
+
+
+
+.disco_ol{
+ position: absolute;
+ height: 0;
+ width: 100%;
+ background-color:rgba(0,0,0,0.5);
+ top: 0;
+ left: 0;
+ transition: all 0.3s ease ;
+ -webkit-transition: all 0.3s ease ;
+ -moz-transition: all 0.3s ease ;
+ -ms-transition: all 0.3s ease ;
+ -o-transition: all 0.3s ease ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.disco_item:hover .disco_ol{
+  height: 100%;
+}
+
+.disco_ol i{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+  margin: 0 7px;
+  font-size: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: #F47606;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+
+.disco_ol i:hover{
+  background-color: #F47606;
+  color: #fff;
+}
+
+.disco_item:hover .disco_ol i{
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}

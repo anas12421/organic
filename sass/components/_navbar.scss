@@ -1,0 +1,104 @@
+.menu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+}
+
+.menu a img {
+  padding: 29px 0;
+}
+
+.menu ul li a {
+  color: black !important;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 20px !important;
+}
+
+.menu ul li a:hover {
+  color: #477018 !important;
+}
+
+.menu ul li a.active {
+  color: #477018 !important;
+}
+
+.icons a{
+  color: black;
+}
+.icons i{
+  padding-left: 15px;
+  font-size: 18px;
+  // color: black;
+}
+
+.icons i:hover {
+  color: #477018;
+  cursor: pointer;
+}
+
+.icons button{
+  background-color: transparent !important;
+  color: black;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #477018;
+}
+
+.btn-check:focus + .btn-primary, .btn-primary:focus {
+  color: black;
+  background-color: none;
+  border-color: none;
+  box-shadow: none;
+}
+
+.btn-check:active + .btn-primary, .btn-check:checked + .btn-primary, .btn-primary.active, .btn-primary:active, .show > .btn-primary.dropdown-toggle {
+  color: black;
+  background-color: transparent;
+  border-color: none;
+}
+
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.mot span{
+  color: #F47606;
+}
+.moi input{
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: none;
+  border: 1px solid black;
+  font-size: 18px;
+  color: black;
+}
+
+
+.moi input:focus{
+  border-color: #F47606 !important;
+}
+.moi input::placeholder{
+  color: black;
+}
+
+.moc button{
+  background-color: #F47606 !important;
+  border: none;
+}
+
+.btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-close:focus {
+  outline: 0px;
+  box-shadow: none;
+  opacity: 1;
+}

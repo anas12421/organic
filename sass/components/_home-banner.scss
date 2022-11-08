@@ -1,0 +1,47 @@
+#banner {
+  background: url(../images/home-banner.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-attachment: fixed;
+  padding: 190px 0;
+}
+
+.banner_text h1 {
+  font-weight: 700;
+  font-size: 65px;
+  color: #282828;
+}
+
+.banner_text h1 span {
+  color: #F47606;
+}
+
+.banner_text p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+  padding-right: 160px;
+}
+
+.banner_text a {
+  padding: 14px 50px;
+  background-color: #F47606;
+  margin-top: 30px;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid #F47606;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.banner_text a:hover{
+  color: #F47606;
+  background-color: white;
+}

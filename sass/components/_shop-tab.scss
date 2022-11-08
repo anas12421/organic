@@ -1,0 +1,57 @@
+#shop_tab {
+  padding-top: 130px;
+}
+
+.st_search input {
+  width: 100%;
+  padding: 14px 0 14px 22px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.st_search input::placeholder {
+  color: #B0B0B0;
+}
+
+.st_search a {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  color: #B0B0B0;
+  font-size: 20px;
+}
+
+.st_show p {
+  font-size: 16px;
+  color: #676767;
+}
+
+.st_list_view i {
+  font-size: 30px;
+  color: #C9C9C9;
+  cursor: pointer;
+}
+
+.st_list_view i.active {
+  color: #282828;
+}
+
+.st_option select {
+  width: 100%;
+  padding: 14px 0 14px 25px;
+  border: 1px solid #C9C9C9;
+  border-radius: 10px;
+}
+
+.form-select:focus {
+  border-color: #C9C9C9;
+  outline: 0;
+  box-shadow: none;
+}

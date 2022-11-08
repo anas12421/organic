@@ -1,0 +1,88 @@
+#shop_ip {
+  padding-top: 50px;
+  // background-color: limegreen;
+}
+
+.shop_item {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.shop_ol {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.shop_ol i {
+  height: 47px;
+  width: 47px;
+  background-color: white;
+  text-align: center;
+  line-height: 47px;
+  color: black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 18px;
+  margin: 0 5px 20px 5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+}
+
+
+.shop_ol i:hover {
+  background-color: #F47606;
+  color: white;
+}
+
+.shop_item:hover .shop_ol i {
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}
+
+.sip_page button {
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  background: #E9E9E9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 10px;
+}
+
+.sip_page button.active{
+  background-color: #477018;
+  color: white;
+}
+.sip_page button:hover{
+  background-color: #477018;
+  color: white;
+}
+.sip_page button:focus{
+  background-color: #477018;
+  color: white;
+}

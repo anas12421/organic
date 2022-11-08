@@ -1,0 +1,63 @@
+#feedback {
+  padding-top: 125px;
+}
+
+.feed_head h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+  padding-bottom: 50px;
+}
+
+.feed_slider {
+  padding: 55px 60px 0 60px;
+  position: relative;
+  // background-color: red;
+}
+
+.feed_slider::after {
+  content: '';
+  position: absolute;
+  background: url(../images/feedback\ bg.png) no-repeat;
+  background-position: right bottom;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.feed_slider i {
+  color: #FFC24B;
+  font-size: 14px;
+}
+
+.feed_slider p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6C6C6C;
+  padding-top: 25px;
+}
+
+
+
+
+.feed_name {
+  padding-top: 25px;
+}
+
+.feedn_right {
+  padding-left: 27px;
+}
+
+.feedn_right h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #363636;
+  padding-bottom: 5px;
+}
+
+.feedn_right span {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6C6C6C;
+}

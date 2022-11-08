@@ -1,0 +1,29 @@
+#cat_deal {
+  padding-top: 130px;
+}
+
+.cat_deal_head h2 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #282828;
+  text-transform: capitalize;
+}
+
+.catd_timer {
+  height: 70px;
+  width: 70px;
+  background: #F47606;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  padding: 5px 0;
+  margin-left: 30px;
+}
+
+.catd_timer.for_color{
+  background-color: #F9F9F9;
+  color: #F47606;
+}

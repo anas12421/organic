@@ -1,0 +1,67 @@
+#home_countdown {
+  margin: 120px 0;
+  padding: 120px 0;
+  background-color: #F8F8F8;
+}
+
+.cd_text h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #282828;
+}
+
+.cd_text h3 {
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #282828;
+}
+
+.cd_text p {
+  font-size: 16px;
+  line-height: 28px;
+  color: #676767;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cd_text a {
+  padding: 14px 51px;
+  background: #F47606;
+  border-radius: 10px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+.countdown_main{
+  margin-top: 35px;
+  display: flex;
+  // justify-content: space-between;
+}
+
+.cm_item {
+  // height: 80px;
+  // width: 70px;
+  // background-color: red;
+  margin-right: 25px;
+}
+
+.cm_item h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #282828;
+  text-align: center !important;
+}
+
+.cm_item p {
+  padding: 0 !important;
+  padding-top: 5px !important;
+  font-weight: 500;
+  font-size: 28px;
+  color: #282828;
+  text-transform: capitalize;
+}
